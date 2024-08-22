@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "types": ["node", "mocha"],
+    "target": "esnext",
+    "moduleResolution": "Node16",
+    "module": "Node16",
+    "noEmit": true,
+    "checkJs": true
+  }
+}
