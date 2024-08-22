@@ -2,10 +2,10 @@
 // vim: set ft=javascript:
 'use strict'
 
+const path = require('node:path')
 const program = require('commander')
 const mkdirp = require('mkdirp')
 const dotenv = require('dotenv')
-const path = require('path')
 const log = require('../lib/log')
 const pkg = require('../package.json')
 const registerCompiler = require('../lib/register-compiler')

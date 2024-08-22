@@ -3,7 +3,7 @@
 'use strict'
 
 const program = require('commander')
-const path = require('path')
+const path = require('node:path')
 const dotenv = require('dotenv')
 const log = require('../lib/log')
 const registerCompiler = require('../lib/register-compiler')
